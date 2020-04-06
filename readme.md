@@ -1,8 +1,10 @@
 # E-payment
 - site web for E-paiment 
 - file : https://nadirsdj31.github.io/E-payment/
+
 ## Screenshots
-![alt text](https://user-images.githubusercontent.com/58395073/78521162-4a7c1880-77c9-11ea-8775-34b234f79490.PNG)
+<img src="https://user-images.githubusercontent.com/24621701/78550134-77492380-77fb-11ea-8d30-c825bb07e4a7.png" width="1360" />
+
 ## Tools & Languages
 - html
 - css

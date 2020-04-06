@@ -1,89 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>E-payment</title>
-        <link href="img/la moula.jpg" rel="icon">
-    </head>
-    <body>
-    <!DOCTYPE html>
-<html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"  href="css/style.css">
+    <title>E-payment</title>
+    <link href="img/la moula.jpg" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="row">
-  <div class="col-75">
-    <div class="container">
-      
-        <div class="row">
-          <div class="col-50">
-            <h3>Billing Address</h3>
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="your name"  background="transparent">
-    </body>
-     <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="skot3liyaYawedi@gmail.com">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-            <input type="text" id="adr" name="address" placeholder="Gdyel,Oran,algeria">
-            <label for="city"><i class="fa fa-institution"></i> City</label>
- <input type="text" id="city" name="city" placeholder="Oran">
+    <div class="row space-top space-left">
+        <div class="col-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h3>Billing Address</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="your name" background="transparent">
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="skot3liyaYawedi@gmail.com">
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="Gdyel,Oran,algeria">
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="Oran">
 
-            <div class="row">
-              <div class="col-50">
-                <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="Oran">
-              </div>
-              <div class="col-50">
-                <label for="zip">Zip</label>     
- <input type="text" id="zip" name="zip" placeholder="70006">
-              </div>
-            </div>
-          </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="Oran">
+                            </div>
+                            <div class="col-6">
+                                <label for="zip">Zip</label>
+                                <input type="text" id="zip" name="zip" placeholder="70006">
+                            </div>
+                        </div>
+                    </div>
 
-          <div class="col-50">
-            <h3>Payment</h3>
-            <label for="fname">Accepted Cards</label>
-            <div class="icon-container">
-              <i><img src="img/download (1).png" height="45px" width="45px"></i>    
-              <i><img src="img/download.png" height="45px" width="45px"></i> 
-              <i> <img src="img/images.png" height="45px" width="45px"></i>
-              <i> <img src="img/cvbb.jpg" height="45px" width="45px"></i>
+                    <div class="col-6">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div class="icon-container">
+                            <i><img src="img/download (1).png" height="45px" width="45px"></i>
+                            <i><img src="img/download.png" height="45px" width="45px"></i>
+                            <i> <img src="img/images.png" height="45px" width="45px"></i>
+                            <i> <img src="img/cvbb.jpg" height="45px" width="45px"></i>
+                        </div>
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="name or card">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="2020">
+                            </div>
+                            <div class="col-6">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="352">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          </label>
+                <input type="submit" value="Continue to checkout" class="btn">
+                </form>
             </div>
-            <label for="cname">Name on Card</label>
-            <input type="text" id="cname" name="cardname" placeholder="name or card">
-            <label for="ccnum">Credit card number</label>
-            <input type="text"  
-   id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-            <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September">
-            <div class="row">
-              <div class="col-50">
-                <label for="expyear">Exp Year</label>
-                <input type="text" id="expyear" name="expyear" placeholder="2020">
-              </div>   
- <div class="col-50">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="352">
-              </div>
-            </div>
-          </div>
-          
         </div>
-        <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing  
-  </label>
-        <input type="submit" value="Continue to checkout" class="btn">
-      </form>
+        <div class="col-4">
+            <div class="container space-right">
+                <h4>Select your product</Select> <span class="price"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+                <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 1</a> <span class="price">$15
+              (2700DA)</span></p>
+                <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 2</a> <span class="price">$10
+              (1800DA)</span></p>
+                <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 3</a> <span class="price">$20
+              (3800DA)</span></p>
+                <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 4</a> <span class="price">$30
+              (5800DA)</span></p>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col-25">
-    <div class="container">
-      <h4>Select your product</Select> <span class="price"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 1</a> <span class="price">$15 (2700DA)</span></p> 
- <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 2</a> <span class="price">$10 (1800DA)</span></p>  
-   <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 3</a> <span class="price">$20 (3800DA)</span></p>  
-   <p><input type="checkbox" checked="checked" name="sameadr"><a href="#">Product 4</a> <span class="price">$30 (5800DA)</span></p>    
-    </div>
-  </div>                                       
+</body>
+
 </html>
